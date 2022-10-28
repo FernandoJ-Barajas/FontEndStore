@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: url("../img/business.jpg");
+    background-size: 75rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+h1{
+    color: #0f2083;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    float: right;
+}
+
+#logo{
+    background: #2752b0;
+    text-align: center;
+}
+
+.form-register{
+    width: 50%;
+    max-width: 500px;
+    height: 350px;
+    padding: left 50px;
+    margin-top: 140px;
+    margin-left: 400px;
+    float: left;
+    background: #2752b0;
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.form__titulo{
+    background: #0f2083;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 7px;
+    border-bottom: 5px solid rgb(62, 71, 201);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+
+}
+
+.input-100{
+    height: 15px;
+    width: 95%;
+    margin-left: 12px;
+}
+
+.btn-enviar{
+    background: rgb(220, 60, 20);
+    color: white;
+    margin: auto;
+    margin-left: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-regresar{
+    color: white;
+    margin: auto;
+    margin-left: 10px;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+p{
+    color: darkgray;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
